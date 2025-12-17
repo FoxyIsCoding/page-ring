@@ -5,15 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>embed</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        height: 100%;
+        width: 100%;
+        border: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>This is a test website!</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magnam
-      dolor dignissimos nobis repudiandae reprehenderit inventore illo
-      laboriosam voluptate? Voluptas et animi autem error. Ullam soluta ab
-      voluptas optio facilis!
-    </p>
+    <iframe src="https://page.hackclub.com" frameborder="0"></iframe>
     <ysws-ring-overlay />
     <script type="module" src="/src/main.ts"></script>
   </body>
