@@ -10,6 +10,17 @@ import "~/styles/global.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>page webring</title>
+    <meta
+      property="description"
+      content="a webring for the personal sites of teens in Hack Club."
+    />
+    <meta property="og:title" content="page webring" />
+    <meta property="og:image" content={new URL("/og.png", Astro.url)} />
+    <meta
+      property="og:description"
+      content="a webring for the personal sites of teens in Hack Club."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body class="bg-neutral-100">
     <slot />
