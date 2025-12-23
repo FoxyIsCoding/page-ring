@@ -4,3 +4,7 @@
   name: "gideon"
   url: "https://gideon.sh"
   buttonUrl: "https://gideon.sh/88x31.gif"
+- id: valen
+  name: "valen"
+  url: "https://valen.zip"
+  buttonUrl: "https://valen.zip/button-win98.gif"
