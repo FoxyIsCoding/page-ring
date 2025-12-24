@@ -34,3 +34,8 @@
   name: "bunnyguy"
   url: "https://sundial.city"
   buttonUrl: /buttons/bunnyguy.gif
+
+- id: pkindustry
+  name: "p-kac"
+  url: "https://pkindustry.org"
+  buttonUrl: "https://pkindustry.org/images/PKIButton.png"
